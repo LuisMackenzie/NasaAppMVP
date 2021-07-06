@@ -21,11 +21,8 @@ public class Constantes {
     public final static String STRING = "String";
     public final static String STRING_API_KEY = "api_key";
 
-    // TYPE_OF_VIDEO = 1 = ISS   // TYPE_OF_VIDEO = 2 = TVNASA
+    // TYPE_OF_VIDEO = 1 = INDOOR VIEW   // TYPE_OF_VIDEO = 2 = OUTDOOR VIEW  // TYPE_OF_VIDEO = 3 = TVNASA
     public static int TYPE_OF_VIDEO = 0;
 
-
-    // private final String YOUTUBE_APIKEY = '"' + SIMPLEMVP_YOUTUBE_API_KEY + '"' ?: '"Error"'
-    // private final String APOD_APIKEY = '"' + SIMPLEMVP_NASA_API_KEY + '"' ?: '"Error"'
 
 }
