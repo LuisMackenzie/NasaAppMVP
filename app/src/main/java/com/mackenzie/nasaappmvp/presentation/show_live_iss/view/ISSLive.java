@@ -1,5 +1,10 @@
 package com.mackenzie.nasaappmvp.presentation.show_live_iss.view;
 
+import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
@@ -16,6 +21,7 @@ public class ISSLive extends YouTubeBaseActivity {
 
     YouTubePlayerView youtubePlayerView;
     ActivityIssliveBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,14 +53,43 @@ public class ISSLive extends YouTubeBaseActivity {
                             break;
                     }
                 }
-
             }
 
             @Override
             public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-                Toast.makeText(ISSLive.this, getString(R.string.youtube_video_load_failed) + youTubeInitializationResult.toString(), Toast.LENGTH_SHORT).show();
+                showYoutubeDialog();
+                // Toast.makeText(ISSLive.this, getString(R.string.youtube_video_load_failed) + youTubeInitializationResult.toString(), Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void showYoutubeDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.dialog_core_youtube_title);
+        builder.setMessage(R.string.dialog_core_youtube_message);
+        builder.setPositiveButton(R.string.dialog_core_youtube_install, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                try {
+                    // Esta linea abre el google play market directamente
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constantes.YOUTUBE_CORE_MARKET_URL + Constantes.YOUTUBE_CORE_PACKAGE_NAME)));
+                } catch (ActivityNotFoundException e) {
+                    // Si google play no se encuentra disponible, abrira el navegador
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constantes.YOUTUBE_CORE_BASE_URL + Constantes.YOUTUBE_CORE_PACKAGE_NAME)));
+                }
+
+                // Toast.makeText(ISSLive.this, "Instalando youtube...", Toast.LENGTH_SHORT).show();
+            }
+        });
+        builder.setNegativeButton(R.string.dialog_core_youtube_cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+        builder.setCancelable(false);
+        builder.create().show();
     }
 
 }

@@ -8,4 +8,9 @@
     <string name="watch_the_nasa_tv_live">Watch the NASA TV Live</string>
     <string name="watch_the_iss_live">Watch the ISS Live</string>
     <string name="watch_youtube_advice">You need the YouTube app to see the channels</string>
+
+    <string name="dialog_core_youtube_title">¿Quiere instalar Youtube?</string>
+    <string name="dialog_core_youtube_message">Youtube parece no estar instalado en el dispositivo. La aplicación abrirá Google Play</string>
+    <string name="dialog_core_youtube_install">Abrir Google Play</string>
+    <string name="dialog_core_youtube_cancel">Cancelar</string>
 </resources>
