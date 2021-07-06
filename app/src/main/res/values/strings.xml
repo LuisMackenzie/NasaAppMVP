@@ -9,8 +9,15 @@
     <string name="watch_the_iss_live">Watch the ISS Live</string>
     <string name="watch_youtube_advice">You need the YouTube app to see the channels</string>
 
-    <string name="dialog_core_youtube_title">¿Quiere instalar Youtube?</string>
-    <string name="dialog_core_youtube_message">Youtube parece no estar instalado en el dispositivo. La aplicación abrirá Google Play</string>
-    <string name="dialog_core_youtube_install">Abrir Google Play</string>
-    <string name="dialog_core_youtube_cancel">Cancelar</string>
+    // Youtube Installer dialog
+    <string name="dialog_core_youtube_title">Do you want to install Youtube?</string>
+    <string name="dialog_core_youtube_message">Youtube seems not to be installed on the device. The application will open Google Play</string>
+    <string name="dialog_core_youtube_install">Open Google Play</string>
+    <string name="dialog_core_youtube_cancel">Cancel</string>
+
+    // Selector of indoor / outdoor Station view
+    <string name="dialog_ISS_title">Choose a camera</string>
+    <string name="dialog_ISS_message">You want to see the interior recording or the exterior recording of the International Space Station (ISS)</string>
+    <string name="dialog_ISS_indoor">Indoor View</string>
+    <string name="dialog_ISS_outdoor">Outdoor View</string>
 </resources>

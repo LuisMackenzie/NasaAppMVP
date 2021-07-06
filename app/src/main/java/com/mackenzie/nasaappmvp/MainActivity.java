@@ -2,7 +2,11 @@ package com.mackenzie.nasaappmvp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -47,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         navigateToActivity(ApodDetail.class);
     }
 
-    public void issAction(View view) {
+    public void issAction() {
         navigateToActivity(ISSLive.class);
     }
 
@@ -60,17 +64,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch(v.getId()) {
             case R.id.apodAction:
                 apodAction(v);
-                // Toast.makeText(this, "Pulsaste 01", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.issAction:
-                Constantes.TYPE_OF_VIDEO = 1;
-                issAction(v);
+                showStateISS();
                 break;
             case R.id.nasaTVAction:
-                Constantes.TYPE_OF_VIDEO = 2;
-                issAction(v);
-                // Toast.makeText(this, "Pulsaste TV", Toast.LENGTH_SHORT).show();
+                Constantes.TYPE_OF_VIDEO = 3;
+                issAction();
                 break;
         }
     }
+
+    private void showStateISS() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.dialog_ISS_title);
+        builder.setMessage(R.string.dialog_ISS_message);
+        builder.setPositiveButton(R.string.dialog_ISS_outdoor, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Constantes.TYPE_OF_VIDEO = 2;
+                issAction();
+            }
+        });
+        builder.setNegativeButton(R.string.dialog_ISS_indoor, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Constantes.TYPE_OF_VIDEO = 1;
+                issAction();
+            }
+        });
+        builder.setCancelable(false);
+        builder.create().show();
+    }
+
 }

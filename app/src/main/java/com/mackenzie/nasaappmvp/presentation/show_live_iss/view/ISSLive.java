@@ -44,10 +44,14 @@ public class ISSLive extends YouTubeBaseActivity {
                 if (!b){
                     switch (Constantes.TYPE_OF_VIDEO) {
                         case 1:
-                            youTubePlayer.loadVideo(Constantes.YOUTUBE_VIDEO_ID_ISSLIVE);
+                            youTubePlayer.loadVideo(Constantes.YOUTUBE_VIDEO_ID_ISSLIVE_INDOOR);
                             youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
                             break;
                         case 2:
+                            youTubePlayer.loadVideo(Constantes.YOUTUBE_VIDEO_ID_ISSLIVE_OUTDOOR);
+                            youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
+                            break;
+                        case 3:
                             youTubePlayer.loadVideo(Constantes.YOUTUBE_VIDEO_ID_NASATV);
                             youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
                             break;

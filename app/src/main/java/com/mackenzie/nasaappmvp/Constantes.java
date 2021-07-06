@@ -5,7 +5,8 @@ public class Constantes {
     // Youtube
     public final static String YOUTUBE_APIKEY = "YOUR_KEY_HERE";
     public final static String YOUTUBE_VIDEO_ID_NASATV = "21X5lGlDOfg";
-    public final static String YOUTUBE_VIDEO_ID_ISSLIVE = "nA9UZF-SZoQ";
+    public final static String YOUTUBE_VIDEO_ID_ISSLIVE_INDOOR = "nA9UZF-SZoQ";
+    public final static String YOUTUBE_VIDEO_ID_ISSLIVE_OUTDOOR = "DDU-rZs-Ic4";
     public final static String YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=21X5lGlDOfg";
     public final static String YOUTUBE_CORE_PACKAGE_NAME = "com.google.android.youtube";
     public final static String YOUTUBE_CORE_BASE_URL = "https://play.google.com/store/apps/details?id=";
