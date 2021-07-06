@@ -19,7 +19,7 @@ import com.mackenzie.nasaappmvp.presentation.show_live_iss.view.ISSLive;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityMainOptionsBinding binding;
-    // private LinearLayout apodAction, issAction, tvAction;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,16 +32,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // Objetos del View Binding
         binding = ActivityMainOptionsBinding.inflate(getLayoutInflater());
-        // setContentView(binding.getRoot());
-        View view = binding.getRoot();
-        setContentView(view);
+        setContentView(binding.getRoot());
         setUpElements();
     }
 
     private void setUpElements() {
-        // apodAction = binding.apodAction;
-        // issAction = binding.issAction;
-        // tvAction = binding.nasaTVAction;
         binding.apodAction.setOnClickListener(this);
         binding.issAction.setOnClickListener(this);
         binding.nasaTVAction.setOnClickListener(this);
