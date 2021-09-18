@@ -58,4 +58,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Luis Baez](https://github.com/LuisMackenzie) 😊
+⌨️ with ❤️ by [Luis](https://github.com/LuisMackenzie) 😊
