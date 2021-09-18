@@ -22,11 +22,11 @@ git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 
 To use the *NASA's APOD API feature* you need a *NASA API key*:
 * To get one, follow the directions here: https://api.nasa.gov/
-* Once you have your key, replace the "NASA_API_KEY" string in these file: `app/src/release/res/values/google_maps_api.xml`
+* Once you have your key, replace the "NASA_API_KEY" string in these file: `app/src/main/java/com/mackenzie/nasaappmvp/Constantes.java`
 
 To use the *Youtube API feature* you need a *Youtube API key*:
 * To get one, follow the directions here: https://developers.google.com/youtube/v3/getting-started
-* Once you have your key, replace the "YOUTUBE_APIKEY" string in these file: `app/src/release/res/values/google_maps_api.xml`
+* Once you have your key, replace the "YOUTUBE_APIKEY" string in these file: `app/src/main/java/com/mackenzie/nasaappmvp/Constantes.java`
 
 ## Built with 🛠️
 
