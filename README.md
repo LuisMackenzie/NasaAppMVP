@@ -28,19 +28,9 @@ git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 * [Youtube API](https://developers.google.com/youtube/v3) - Add YouTube functionality to your app
 * [NASA API](https://api.nasa.gov/) - Astronomy Picture of the Day (APOD) microservice
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Luis Baez** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Luis Baez** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+* **Luis Baez** - *Trabajo Inicial* - [Luis Baez](https://github.com/LuisMackenzie)
 
 ## Licencia 📄
 
