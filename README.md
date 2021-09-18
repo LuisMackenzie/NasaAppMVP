@@ -40,7 +40,7 @@ To use the *Youtube API feature* you need a *Youtube API key*:
 
 ## Autors ✒️
 
-* **Luis Baez** - *Initial work* - [Luis Baez](https://github.com/LuisMackenzie)
+* **Luis Baez** - *Initial work* - [My Github](https://github.com/LuisMackenzie)
 
 <!--
 ## Licencia 📄
@@ -57,4 +57,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [My Github](https://github.com/LuisMackenzie) 😊
+⌨️ con ❤️ por [Luis Baez](https://github.com/LuisMackenzie) 😊
