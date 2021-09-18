@@ -8,14 +8,11 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
+### Setup development environment 📋
 
-### Pre-requisitos 📋
+* [Android Studio](https://developer.android.com/studio)
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+* [Android SDK Tools](https://developer.android.com/studio#Other)
 
 ### Instalación 🔧
 
