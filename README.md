@@ -1,8 +1,8 @@
-# Título del Proyecto
+# Nasa POTD (Picture Of The Day)
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_This application allows you to see the photo of the day from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
 
-## Comenzando 🚀
+## Getting Started 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
