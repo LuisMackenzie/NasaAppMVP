@@ -1,6 +1,6 @@
 # Nasa POTD (Picture Of The Day)
 
-_This application allows you to see the photo of the day from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
+_This application allows you to see the picture of the day (POTD) from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
 
 ## Getting Started 🚀
 
