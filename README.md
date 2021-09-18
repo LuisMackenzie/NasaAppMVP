@@ -15,48 +15,20 @@ _This application allows you to see the picture of the day (POTD) from the NASA 
 1. Get the source code.
 
 ```
-git clone --recursive https://github.com/meganz/android.git
+git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 ```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
+* [Gradle](https://gradle.org/) - Dependency manager
+* [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+* [Glide](https://bumptech.github.io/glide/) - Glide is media management and image loading framework for Android
+* [PhotoView](https://github.com/Baseflow/PhotoView) - An easily usable implementation of a zooming Android ImageView.
+* [Youtube API](https://developers.google.com/youtube/v3) - Add YouTube functionality to your app
+* [NASA API](https://api.nasa.gov/) - Astronomy Picture of the Day (APOD) microservice
 
 ## Contribuyendo 🖇️
 
