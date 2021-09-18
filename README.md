@@ -32,7 +32,7 @@ To use the *Youtube API feature* you need a *Youtube API key*:
 ## Built with 🛠️
 
 * [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
-* [Gradle](https://gradle.org/) - Dependency manager
+* [Gradle](https://gradle.org/) - Gradle, is a tool and dependency manager that allows open source compilation automation, which is focused on flexibility and performance
 * [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 * [Gson](https://github.com/google/gson) - Library that can be used to convert Java Objects into their JSON representation.
 * [Glide](https://bumptech.github.io/glide/) - Glide is media management and image loading framework for Android
