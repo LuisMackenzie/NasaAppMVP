@@ -34,6 +34,7 @@ To use the *Youtube API feature* you need a *Youtube API key*:
 * [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
 * [Gradle](https://gradle.org/) - Dependency manager
 * [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+* [Gson](https://github.com/google/gson) - Library that can be used to convert Java Objects into their JSON representation.
 * [Glide](https://bumptech.github.io/glide/) - Glide is media management and image loading framework for Android
 * [PhotoView](https://github.com/Baseflow/PhotoView) - An easily usable implementation of a zooming Android ImageView.
 * [Youtube API](https://developers.google.com/youtube/v3) - Add YouTube functionality to your app
