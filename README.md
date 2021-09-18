@@ -1,6 +1,6 @@
-# Nasa POTD (Picture Of The Day)
+# Nasa APOD (Astronomy Picture of the Day)
 
-_This application allows you to see the picture of the day (POTD) from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
+_This application allows you to see the Astronomy Picture of the Day (APOD) from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
 
 ## Getting Started 🚀
 
@@ -20,12 +20,12 @@ git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 
 ### Notice
 
-To use the *NASA's POTD API feature* you need a *Google Maps API key*:
-* To get one, follow the directions here: https://developers.google.com/maps/documentation/android/signup.
+To use the *NASA's APOD API feature* you need a *Google Maps API key*:
+* To get one, follow the directions here: https://api.nasa.gov/
 * Once you have your key, replace the "google_maps_key" string in these files: `app/src/debug/res/values/google_maps_api.xml` and `app/src/release/res/values/google_maps_api.xml`.
 
 To use the *Youtube API feature* you need a *Google Youtube API key*:
-* To get one, follow the directions here: https://developers.google.com/maps/documentation/android/signup.
+* To get one, follow the directions here: 
 * Once you have your key, replace the "google_maps_key" string in these files: `app/src/debug/res/values/google_maps_api.xml` and `app/src/release/res/values/google_maps_api.xml`.
 
 ## Built with 🛠️
