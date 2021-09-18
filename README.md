@@ -31,7 +31,8 @@ git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 ## Autors ✒️
 
 * **Luis Baez** - *Initial work* - [Luis Baez](https://github.com/LuisMackenzie)
-
+* 
+<!--
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
@@ -41,7 +42,7 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
-* etc.
+* etc.  -->
 
 
 
