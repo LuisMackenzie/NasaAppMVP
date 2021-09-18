@@ -18,6 +18,14 @@ _This application allows you to see the picture of the day (POTD) from the NASA 
 git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 ```
 
+### Notice
+
+To use the *POTD feature* you need a *Google Maps API key*:
+
+1. To get one, follow the directions here: https://developers.google.com/maps/documentation/android/signup.
+
+2. Once you have your key, replace the "google_maps_key" string in these files: `app/src/debug/res/values/google_maps_api.xml` and `app/src/release/res/values/google_maps_api.xml`.
+
 ## Built with 🛠️
 
 * [Android Studio](https://developer.android.com/studio) - The Android framework recomended by Google
