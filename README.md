@@ -4,7 +4,7 @@ _This application allows you to see the Astronomy Picture of the Day (APOD) from
 
 | <img src="docs_resources/home.png"> | <img src="docs_resources/apod.png"> | <img src="docs_resources/apod_zoom.png"> |
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
-| <img src="docs_resources/iss_select.png"> | <img src="docs_resources/indoor.png"> | <img src="docs_resources/outdoor.png"> |
+| <img src="docs_resources/iss_select.png"> | <img src="docs_resources/indoor.jpg"> | <img src="docs_resources/outdoor.jpg"> |
 | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
 
 ## Getting Started 🚀
