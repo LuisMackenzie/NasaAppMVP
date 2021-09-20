@@ -3,7 +3,7 @@ package com.mackenzie.nasaappmvp;
 public class Constantes {
 
     // Youtube
-    public final static String YOUTUBE_APIKEY = "AIzaSyDOWihatozG5_mfUBwKpB3q-jtzTIZI4G8";
+    public final static String YOUTUBE_APIKEY = "YOUR_KEY_HERE";
     public final static String YOUTUBE_VIDEO_ID_NASATV = "21X5lGlDOfg";
     public final static String YOUTUBE_VIDEO_ID_ISSLIVE_INDOOR = "nA9UZF-SZoQ";
     public final static String YOUTUBE_VIDEO_ID_ISSLIVE_OUTDOOR = "DDU-rZs-Ic4";
@@ -16,7 +16,7 @@ public class Constantes {
     public final static String NASA_URL = "https://api.nasa.gov/planetary/apod?api_key=";
     public final static String NASA_BASE_URL1 = "https://api.nasa.gov/planetary/";
     public final static String NASA_BASE_URL2= "https://api.nasa.gov/planetary/apod";
-    public final static String NASA_API_KEY = "yJSfwfI9mpmZ1m9wf0joEA5NeerSyaVGkM6SJ2fu";
+    public final static String NASA_API_KEY = "YOUR_KEY_HERE";
 
     public final static String STRING = "String";
     public final static String STRING_API_KEY = "api_key";
