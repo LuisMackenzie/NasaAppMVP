@@ -21,6 +21,7 @@ _This application allows you to see the Astronomy Picture of the Day (APOD) from
 ```
 git clone --recursive https://github.com/LuisMackenzie/NasaAppMVP.git
 ```
+2. Or get apk [here](https://github.com/LuisMackenzie/NasaAppMVP/raw/master/NasaApp.apk)
 
 ### Notice
 
