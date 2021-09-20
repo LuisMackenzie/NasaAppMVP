@@ -2,6 +2,11 @@
 
 _This application allows you to see the Astronomy Picture of the Day (APOD) from the NASA website. In addition, it also allows you to see the public transmissions of the international space station (ISS)_
 
+| <img src="docs_resources/home.png"> | <img src="docs_resources/apod.png"> | <img src="docs_resources/apod_zoom.png"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
+| <img src="docs_resources/iss_select.png"> | <img src="docs_resources/indoor.png"> | <img src="docs_resources/outdoor.png"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- |
+
 ## Getting Started 🚀
 
 ### Setup development environment 📋
